@@ -14,13 +14,13 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class ProducerRabbitConfiguration {
 
-	@Value("${pring.rabbitmq.request.routing-key.producer}")
+	@Value("${spring.rabbitmq.request.routing-key.producer}")
 	private String queue;
 
-	@Value("${pring.rabbitmq.request.exchange.producer}")
+	@Value("${spring.rabbitmq.request.exchange.producer}")
 	private String exchange;
 
-	@Value("${pring.rabbitmq.request.deadletter.producer}")
+	@Value("${spring.rabbitmq.request.deadletter.producer}")
 	private String deadLetter;
 
 	@Bean
