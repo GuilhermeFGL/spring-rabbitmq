@@ -1,6 +1,6 @@
 package com.example.spring.consumer.dto;
 
-public class MessageQueue {
+public class Message {
 
 	private String text;
 
